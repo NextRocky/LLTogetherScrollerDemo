@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4726D471E248BA5006762AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4726D461E248BA5006762AB /* main.m */; };
+		B4726D4A1E248BA5006762AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4726D491E248BA5006762AB /* AppDelegate.m */; };
+		B4726D4D1E248BA5006762AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4726D4C1E248BA5006762AB /* ViewController.m */; };
+		B4726D501E248BA5006762AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4726D4E1E248BA5006762AB /* Main.storyboard */; };
+		B4726D521E248BA5006762AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4726D511E248BA5006762AB /* Assets.xcassets */; };
+		B4726D551E248BA5006762AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4726D531E248BA5006762AB /* LaunchScreen.storyboard */; };
+		B4726D5F1E248C16006762AB /* LLTogetherScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = B4726D5E1E248C16006762AB /* LLTogetherScroller.m */; };
+		B4726D621E249837006762AB /* LTLiveCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4726D611E249837006762AB /* LTLiveCollectionViewCell.m */; };
+		B4726D661E2498CA006762AB /* UIImage+ClipARC.m in Sources */ = {isa = PBXBuildFile; fileRef = B4726D651E2498CA006762AB /* UIImage+ClipARC.m */; };
+		B4726D691E249994006762AB /* LTVerticalCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4726D681E249994006762AB /* LTVerticalCollectionViewCell.m */; };
+		B4726D6D1E249A50006762AB /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = B4726D6C1E249A50006762AB /* UIView+Frame.m */; };
+		B4726D701E249C40006762AB /* LTScrollHeaderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4726D6F1E249C40006762AB /* LTScrollHeaderLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B4726D421E248BA5006762AB /* LLTogetherScrollerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLTogetherScrollerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4726D461E248BA5006762AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4726D481E248BA5006762AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B4726D491E248BA5006762AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B4726D4B1E248BA5006762AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B4726D4C1E248BA5006762AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B4726D4F1E248BA5006762AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4726D511E248BA5006762AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4726D541E248BA5006762AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4726D561E248BA5006762AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4726D5D1E248C16006762AB /* LLTogetherScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTogetherScroller.h; sourceTree = "<group>"; };
+		B4726D5E1E248C16006762AB /* LLTogetherScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTogetherScroller.m; sourceTree = "<group>"; };
+		B4726D601E249837006762AB /* LTLiveCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTLiveCollectionViewCell.h; sourceTree = "<group>"; };
+		B4726D611E249837006762AB /* LTLiveCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTLiveCollectionViewCell.m; sourceTree = "<group>"; };
+		B4726D641E2498CA006762AB /* UIImage+ClipARC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ClipARC.h"; sourceTree = "<group>"; };
+		B4726D651E2498CA006762AB /* UIImage+ClipARC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ClipARC.m"; sourceTree = "<group>"; };
+		B4726D671E249994006762AB /* LTVerticalCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTVerticalCollectionViewCell.h; sourceTree = "<group>"; };
+		B4726D681E249994006762AB /* LTVerticalCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTVerticalCollectionViewCell.m; sourceTree = "<group>"; };
+		B4726D6B1E249A50006762AB /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		B4726D6C1E249A50006762AB /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		B4726D6E1E249C40006762AB /* LTScrollHeaderLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTScrollHeaderLabel.h; sourceTree = "<group>"; };
+		B4726D6F1E249C40006762AB /* LTScrollHeaderLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTScrollHeaderLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4726D3F1E248BA5006762AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4726D391E248BA5006762AB = {
+			isa = PBXGroup;
+			children = (
+				B4726D441E248BA5006762AB /* LLTogetherScrollerDemo */,
+				B4726D431E248BA5006762AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4726D431E248BA5006762AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4726D421E248BA5006762AB /* LLTogetherScrollerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4726D441E248BA5006762AB /* LLTogetherScrollerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B4726D6A1E249A50006762AB /* Frame */,
+				B4726D631E2498CA006762AB /* Clip */,
+				B4726D5C1E248BF5006762AB /* LLTogetherSCroller */,
+				B4726D481E248BA5006762AB /* AppDelegate.h */,
+				B4726D491E248BA5006762AB /* AppDelegate.m */,
+				B4726D4B1E248BA5006762AB /* ViewController.h */,
+				B4726D4C1E248BA5006762AB /* ViewController.m */,
+				B4726D4E1E248BA5006762AB /* Main.storyboard */,
+				B4726D511E248BA5006762AB /* Assets.xcassets */,
+				B4726D531E248BA5006762AB /* LaunchScreen.storyboard */,
+				B4726D561E248BA5006762AB /* Info.plist */,
+				B4726D451E248BA5006762AB /* Supporting Files */,
+			);
+			path = LLTogetherScrollerDemo;
+			sourceTree = "<group>";
+		};
+		B4726D451E248BA5006762AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4726D461E248BA5006762AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4726D5C1E248BF5006762AB /* LLTogetherSCroller */ = {
+			isa = PBXGroup;
+			children = (
+				B4726D6E1E249C40006762AB /* LTScrollHeaderLabel.h */,
+				B4726D6F1E249C40006762AB /* LTScrollHeaderLabel.m */,
+				B4726D5D1E248C16006762AB /* LLTogetherScroller.h */,
+				B4726D5E1E248C16006762AB /* LLTogetherScroller.m */,
+				B4726D601E249837006762AB /* LTLiveCollectionViewCell.h */,
+				B4726D611E249837006762AB /* LTLiveCollectionViewCell.m */,
+				B4726D671E249994006762AB /* LTVerticalCollectionViewCell.h */,
+				B4726D681E249994006762AB /* LTVerticalCollectionViewCell.m */,
+			);
+			path = LLTogetherSCroller;
+			sourceTree = "<group>";
+		};
+		B4726D631E2498CA006762AB /* Clip */ = {
+			isa = PBXGroup;
+			children = (
+				B4726D641E2498CA006762AB /* UIImage+ClipARC.h */,
+				B4726D651E2498CA006762AB /* UIImage+ClipARC.m */,
+			);
+			path = Clip;
+			sourceTree = "<group>";
+		};
+		B4726D6A1E249A50006762AB /* Frame */ = {
+			isa = PBXGroup;
+			children = (
+				B4726D6B1E249A50006762AB /* UIView+Frame.h */,
+				B4726D6C1E249A50006762AB /* UIView+Frame.m */,
+			);
+			path = Frame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4726D411E248BA5006762AB /* LLTogetherScrollerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4726D591E248BA5006762AB /* Build configuration list for PBXNativeTarget "LLTogetherScrollerDemo" */;
+			buildPhases = (
+				B4726D3E1E248BA5006762AB /* Sources */,
+				B4726D3F1E248BA5006762AB /* Frameworks */,
+				B4726D401E248BA5006762AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLTogetherScrollerDemo;
+			productName = LLTogetherScrollerDemo;
+			productReference = B4726D421E248BA5006762AB /* LLTogetherScrollerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4726D3A1E248BA5006762AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "罗李";
+				TargetAttributes = {
+					B4726D411E248BA5006762AB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = LZ3HEUT7P7;
+					};
+				};
+			};
+			buildConfigurationList = B4726D3D1E248BA5006762AB /* Build configuration list for PBXProject "LLTogetherScrollerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4726D391E248BA5006762AB;
+			productRefGroup = B4726D431E248BA5006762AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4726D411E248BA5006762AB /* LLTogetherScrollerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4726D401E248BA5006762AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4726D551E248BA5006762AB /* LaunchScreen.storyboard in Resources */,
+				B4726D521E248BA5006762AB /* Assets.xcassets in Resources */,
+				B4726D501E248BA5006762AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4726D3E1E248BA5006762AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4726D6D1E249A50006762AB /* UIView+Frame.m in Sources */,
+				B4726D4D1E248BA5006762AB /* ViewController.m in Sources */,
+				B4726D4A1E248BA5006762AB /* AppDelegate.m in Sources */,
+				B4726D661E2498CA006762AB /* UIImage+ClipARC.m in Sources */,
+				B4726D701E249C40006762AB /* LTScrollHeaderLabel.m in Sources */,
+				B4726D621E249837006762AB /* LTLiveCollectionViewCell.m in Sources */,
+				B4726D471E248BA5006762AB /* main.m in Sources */,
+				B4726D5F1E248C16006762AB /* LLTogetherScroller.m in Sources */,
+				B4726D691E249994006762AB /* LTVerticalCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4726D4E1E248BA5006762AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4726D4F1E248BA5006762AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4726D531E248BA5006762AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4726D541E248BA5006762AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4726D571E248BA5006762AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B4726D581E248BA5006762AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4726D5A1E248BA5006762AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LLTogetherScrollerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LLTechnology.demo.LLTogetherScrollerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B4726D5B1E248BA5006762AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LLTogetherScrollerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LLTechnology.demo.LLTogetherScrollerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4726D3D1E248BA5006762AB /* Build configuration list for PBXProject "LLTogetherScrollerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4726D571E248BA5006762AB /* Debug */,
+				B4726D581E248BA5006762AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4726D591E248BA5006762AB /* Build configuration list for PBXNativeTarget "LLTogetherScrollerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4726D5A1E248BA5006762AB /* Debug */,
+				B4726D5B1E248BA5006762AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4726D3A1E248BA5006762AB /* Project object */;
+}
